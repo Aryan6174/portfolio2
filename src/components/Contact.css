@@ -1,0 +1,151 @@
+.cont{
+color: black;
+font-size: 40px;
+font-weight: bold;
+}
+
+.ma{
+    
+    /* border-radius: 10px ; 
+    background-color: black;  */
+    padding: 5%;
+    margin: 5%;
+
+    
+}
+.boxes2{
+    /* color: rgb(186, 98, 227); */
+    font-size: 20px;
+    /* border: 2px solid blueviolet; */
+}
+.boxes3{
+    color: black;
+    font-size: 20px;
+    /* border: 2px solid blueviolet; */
+    
+}
+.input{
+    height: 4vh;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 2px;
+}
+.size{
+    
+    height: 8vh;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 2px;
+}
+.submit{
+    height: 4vh;
+    width: 20%;
+    border-radius: 10px;
+    font-weight: bold;
+    border:1px solid rgb(186, 98, 227);
+    cursor: pointer;
+    background: #fff;
+    color: blueviolet;
+}
+.form
+{
+    
+    display: flex;
+    flex-direction: column;
+    
+    width: 60%;
+    padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group, .textarea-group
+{
+    padding: 1% 0;
+}
+
+.input-group, .textarea-group
+{
+    padding: 1% 0;
+}
+
+input, textarea
+{
+    color: inherit;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #757575;
+    padding: 1.5%;
+    font-size: 20px;
+}
+
+input:focus, textarea:focus
+{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid #69f0ae;
+}
+
+input::placeholder, textarea::placeholder
+{
+    color: transparent;
+}
+
+label
+{
+    color: #757575;
+    position: relative;
+    font-size: 18px;
+    left: 0.5em;
+    top: -2em;
+	cursor: auto;
+    transition: 0.3s ease all;
+}
+
+input:focus ~ label, input:not(:placeholder-shown) ~ label
+{
+    top: -4em;
+    color: #69f0ae;
+    font-size: 20px;
+}
+
+textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label
+{
+    top: -8.5em;
+    color: #69f0ae;
+    font-size: 20px;
+}
+
+.button-div
+{
+    display: flex;
+    justify-content: center;
+    color: #757575;
+}
+
+button
+{
+    
+    padding: 2%;
+    width: 50%;
+    border: 1px solid;
+    border-color: #212121;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 18px;
+    background-color: black;
+    color: inherit;
+    box-shadow: 0 0 10px #212121;
+}
+
+button:hover
+{
+    background-color: #424242;
+    color: #69f0ae;
+    cursor: pointer;
+}

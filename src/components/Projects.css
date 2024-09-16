@@ -1,0 +1,71 @@
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px ;
+    justify-content: center;
+}
+.child{
+    /* background-color: brown; */
+    border-radius: 5%;
+    margin: 3%;
+
+}
+.b1{
+    background-image: url(./1.png);
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+}
+.b2{
+    background-image: url(./2.png);
+    background-size: 100% 100%;
+}
+.b3{
+    background-image: url(./3.png);
+    background-size: 100% 100%;
+}
+.b4{
+    background-image: url(./4.png);
+    background-size: 100% 100%;
+}
+.css-button-sliding-to-left--blue {
+    
+    min-width: 130px;
+    height: 40px;
+    
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #2c0b8e;
+    color: #2c0b8e;
+    align-content: center;
+    text-align: center;
+  }
+  .css-button-sliding-to-left--blue:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-left--blue:hover:after {
+    width: 100%;
+  }
+  .css-button-sliding-to-left--blue:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #2c0b8e;
+  }

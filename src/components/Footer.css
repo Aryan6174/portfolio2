@@ -1,0 +1,37 @@
+.footer{
+    width: auto;
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(90deg, rgb(10, 3, 139) 0%, rgb(13, 13, 209) 35%, rgba(0,212,255,1) 100%); */
+    background:rgb(183, 230, 249);
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 10px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    padding-top: 10px;
+}

@@ -1,0 +1,89 @@
+.i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.i1{
+
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/bootstrap-original-wordmark.svg);
+    /* background-attachment: fixed; */
+    background-size: 500% 500%;
+}
+.i2{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/c-original.svg);
+    background-size: 100% 100%;
+}
+.i3{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/css3-original.svg);
+    background-size: 100% 100%;
+}
+.i4{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/express-8.url);
+    background-size: 100% 100%;
+}
+.i5{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/github-169.url);
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+}
+.i6{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/html5-original.svg);
+    background-size: 100% 100%;
+}
+.i7{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/javascript-original.svg);
+    background-size: 100% 100%;
+}
+.i8{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/mongodb-original-wordmark.svg);
+    background-size: 100% 100%;
+}
+
+.i9{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/mysql-21.url);
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+}
+.i10{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/nodejs-original-wordmark.svg);
+    background-size: 100% 100%;
+}
+.i11{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/python-3521655.url);
+    background-size: 100% 100%;
+}
+.i12{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/react-original.svg);
+    background-size: 100% 100%;
+}
+.i13{
+    height: 200px;
+    width: 200px;
+    background-image: url(./skill-images/tailwindcss-original-wordmark.svg);
+    background-size: 100% 100%;
+}
